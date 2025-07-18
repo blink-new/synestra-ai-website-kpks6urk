@@ -22,7 +22,7 @@ const Header = () => {
       className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 sm:h-18 md:h-20">
+        <div className="flex justify-between items-center h-20 sm:h-22 md:h-24">
           {/* Logo */}
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -31,7 +31,7 @@ const Header = () => {
             <img 
               src="/synestra-logo.png" 
               alt="SYNESTRA Logo" 
-              className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+              className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 object-contain"
             />
           </motion.div>
 
